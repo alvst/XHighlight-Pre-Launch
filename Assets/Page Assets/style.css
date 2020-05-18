@@ -1,0 +1,145 @@
+body {
+  font-family: source-sans-pro, "Overpass", sans-serif;
+}
+
+.content {
+  padding: 16px;
+}
+
+.headings {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.subheadings {
+  font-size: 32px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky+.content {
+  padding-top: 102px;
+}
+
+.nav-bar-size{
+  font-size: 15px;
+}
+/* I dont thinjk the bottom is used */
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+.red-style {
+  background-color: rgb(255, 2, 0);
+}
+
+.red-style-white-text{
+  color: white;
+  background-color: rgb(255, 2, 0);
+}
+
+.light-grey-style {
+  background-color: #b7b7b7;
+}
+
+.middle-grey-style {
+  background-color: #999999;
+}
+
+.dark-grey-style {
+  background-color: #434343;
+}
+
+.black-style {
+  background-color: #000000;
+}
+
+.btn, .red {
+  background-color: rgb(255, 2, 0);
+}
+
+.btn:hover, .red:hover {
+  background-color: #434343; 
+  /* background-color: #cc0000; */
+}
+
+.grey-gradiant {
+  background-image: linear-gradient(#b7b7b7, white)
+}
+
+.nav-custom {
+  z-index: 500;
+  opacity: 96%;
+}
+
+.bottom-footer {
+  height: 900px;
+}
+
+.large-white-button {
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 40px;
+  background: white;
+  margin: auto auto 30px auto;
+}
+
+.roundeded {
+  border-radius: 5px;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.nav-item .footer-text{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-uppercase{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer-color-grey {
+  background-color: rgb(183, 183, 183);
+}
+
+.bottom {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottom-short {
+  /* For short pages use this, it pins the footer to the bottom*/
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+}
+.nav-item-success{
+  background-color: greenyellow;
+}
+
+p.footer {
+  background-image: url("footer-top.png");
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
